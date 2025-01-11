@@ -19,7 +19,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #081b29;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,10 +28,14 @@ body {
 
 .logo {
     font-size: 20px;
-    color: #ededed;
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
+.logo:hover {
+    color: #3dc8ff;
+}
+
 
 .navbar a {
     font-size: 16px;
@@ -67,10 +71,15 @@ body {
 
 }
 span {
-    color: #00abf0;
-    font-size: 80px;
+    /* font-size: 70px; */
+    transition: .3s;
 }
 
+span:hover {
+    font-size: 80px;
+    color: #00abf0;
+    /* cursor: pointer; */
+}
 
 
 .home-content h3 {
@@ -194,4 +203,10 @@ span {
 
 .home-sci a:hover::before {
     width: 100%;   
+}
+
+
+.don {
+    height: 100vh;
+    width: 100%;
 }
